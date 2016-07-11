@@ -1,25 +1,147 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="pgW-oR-Q3a">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--My Plant View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="KVZMyPlantViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ED5-Wa-mox"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-696.5" y="1866.5"/>
+        </scene>
+        <!--Personal Info View Controller-->
+        <scene sceneID="n8B-84-z8y">
+            <objects>
+                <viewController id="NN0-op-XI1" customClass="KVZPersonalInfoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xF9-AT-tPI"/>
+                        <viewControllerLayoutGuide type="bottom" id="TE1-bp-DKy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Qx2-F3-syw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="AIw-oY-WRH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bCe-SV-RWw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="489.5" y="1866.5"/>
+        </scene>
+        <!--Seed Shop View Controller-->
+        <scene sceneID="jhf-0o-er3">
+            <objects>
+                <viewController id="ebw-fO-rNm" customClass="KVZSeedShopViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dHb-1V-F4S"/>
+                        <viewControllerLayoutGuide type="bottom" id="zST-wo-xO8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KEd-VR-fE4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="uTQ-T8-qnE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4fM-z7-kqh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-112.5" y="1866.5"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Cfd-LY-tTo">
+            <objects>
+                <tabBarController id="pgW-oR-Q3a" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="HMg-r9-241"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="9bm-8H-HBu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="YGx-7k-X2m" kind="relationship" relationship="viewControllers" id="S4R-YW-9e1"/>
+                        <segue destination="GP8-G0-Ofc" kind="relationship" relationship="viewControllers" id="3g8-O3-76t"/>
+                        <segue destination="LXD-O0-kxl" kind="relationship" relationship="viewControllers" id="Ynz-Al-DQX"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OIf-1C-5fj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-112" y="59"/>
+        </scene>
+        <!--我的植物-->
+        <scene sceneID="ZFf-XU-6EY">
+            <objects>
+                <navigationController id="YGx-7k-X2m" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="我的植物" image="tab_plant" id="fW2-sr-KDm"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UJa-1x-J1M">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="dR8-TA-b9e"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x45-2w-yBe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-696.5" y="924.5"/>
+        </scene>
+        <!--种子商城-->
+        <scene sceneID="IOB-Wm-Xbd">
+            <objects>
+                <navigationController id="GP8-G0-Ofc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="种子商城" image="tab_shop" id="9ag-iq-38T"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Jfa-EJ-326">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ebw-fO-rNm" kind="relationship" relationship="rootViewController" id="yVG-AA-gRt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="02L-8l-czQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-112.5" y="924.5"/>
+        </scene>
+        <!--我-->
+        <scene sceneID="zhW-cm-LeP">
+            <objects>
+                <navigationController id="LXD-O0-kxl" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="我" image="tab_me" id="5BY-bg-dC0"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="K2K-vX-gvw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="NN0-op-XI1" kind="relationship" relationship="rootViewController" id="fPH-pk-aDR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bAF-ME-t4T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="489.5" y="924.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="tab_me" width="50" height="50"/>
+        <image name="tab_plant" width="50" height="50"/>
+        <image name="tab_shop" width="50" height="50"/>
+    </resources>
 </document>

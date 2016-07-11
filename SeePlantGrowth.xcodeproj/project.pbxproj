@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		0A6038611D339ECD000795D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6038601D339ECD000795D9 /* main.m */; };
 		0A6038641D339ECD000795D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6038631D339ECD000795D9 /* AppDelegate.m */; };
-		0A6038671D339ECD000795D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6038661D339ECD000795D9 /* ViewController.m */; };
+		0A6038671D339ECD000795D9 /* KVZMyPlantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6038661D339ECD000795D9 /* KVZMyPlantViewController.m */; };
 		0A60386A1D339ECD000795D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A6038681D339ECD000795D9 /* Main.storyboard */; };
 		0A60386C1D339ECD000795D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A60386B1D339ECD000795D9 /* Assets.xcassets */; };
 		0A60386F1D339ECD000795D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A60386D1D339ECD000795D9 /* LaunchScreen.storyboard */; };
 		0A60387A1D339ECD000795D9 /* SeePlantGrowthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6038791D339ECD000795D9 /* SeePlantGrowthTests.m */; };
 		0A6038851D339ECD000795D9 /* SeePlantGrowthUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6038841D339ECD000795D9 /* SeePlantGrowthUITests.m */; };
+		0A6038971D33ACC2000795D9 /* KVZPersonalInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6038961D33ACC2000795D9 /* KVZPersonalInfoViewController.m */; };
+		0A60389A1D33ACEC000795D9 /* KVZSeedShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6038991D33ACEC000795D9 /* KVZSeedShopViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,8 @@
 		0A6038601D339ECD000795D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0A6038621D339ECD000795D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0A6038631D339ECD000795D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0A6038651D339ECD000795D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0A6038661D339ECD000795D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0A6038651D339ECD000795D9 /* KVZMyPlantViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVZMyPlantViewController.h; sourceTree = "<group>"; };
+		0A6038661D339ECD000795D9 /* KVZMyPlantViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVZMyPlantViewController.m; sourceTree = "<group>"; };
 		0A6038691D339ECD000795D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A60386B1D339ECD000795D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A60386E1D339ECD000795D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,10 @@
 		0A6038801D339ECD000795D9 /* SeePlantGrowthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeePlantGrowthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A6038841D339ECD000795D9 /* SeePlantGrowthUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeePlantGrowthUITests.m; sourceTree = "<group>"; };
 		0A6038861D339ECD000795D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A6038951D33ACC2000795D9 /* KVZPersonalInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVZPersonalInfoViewController.h; sourceTree = "<group>"; };
+		0A6038961D33ACC2000795D9 /* KVZPersonalInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVZPersonalInfoViewController.m; sourceTree = "<group>"; };
+		0A6038981D33ACEC000795D9 /* KVZSeedShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVZSeedShopViewController.h; sourceTree = "<group>"; };
+		0A6038991D33ACEC000795D9 /* KVZSeedShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVZSeedShopViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +107,11 @@
 		0A60385E1D339ECD000795D9 /* SeePlantGrowth */ = {
 			isa = PBXGroup;
 			children = (
+				0A6038941D33AC67000795D9 /* ViewModel */,
+				0A6038931D33AC5B000795D9 /* Model */,
+				0A6038921D33AC47000795D9 /* ViewController */,
 				0A6038621D339ECD000795D9 /* AppDelegate.h */,
 				0A6038631D339ECD000795D9 /* AppDelegate.m */,
-				0A6038651D339ECD000795D9 /* ViewController.h */,
-				0A6038661D339ECD000795D9 /* ViewController.m */,
 				0A6038681D339ECD000795D9 /* Main.storyboard */,
 				0A60386B1D339ECD000795D9 /* Assets.xcassets */,
 				0A60386D1D339ECD000795D9 /* LaunchScreen.storyboard */,
@@ -138,6 +145,33 @@
 				0A6038861D339ECD000795D9 /* Info.plist */,
 			);
 			path = SeePlantGrowthUITests;
+			sourceTree = "<group>";
+		};
+		0A6038921D33AC47000795D9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0A6038651D339ECD000795D9 /* KVZMyPlantViewController.h */,
+				0A6038661D339ECD000795D9 /* KVZMyPlantViewController.m */,
+				0A6038951D33ACC2000795D9 /* KVZPersonalInfoViewController.h */,
+				0A6038961D33ACC2000795D9 /* KVZPersonalInfoViewController.m */,
+				0A6038981D33ACEC000795D9 /* KVZSeedShopViewController.h */,
+				0A6038991D33ACEC000795D9 /* KVZSeedShopViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		0A6038931D33AC5B000795D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0A6038941D33AC67000795D9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,8 +307,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A6038671D339ECD000795D9 /* ViewController.m in Sources */,
+				0A6038671D339ECD000795D9 /* KVZMyPlantViewController.m in Sources */,
+				0A6038971D33ACC2000795D9 /* KVZPersonalInfoViewController.m in Sources */,
 				0A6038641D339ECD000795D9 /* AppDelegate.m in Sources */,
+				0A60389A1D33ACEC000795D9 /* KVZSeedShopViewController.m in Sources */,
 				0A6038611D339ECD000795D9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,6 +537,7 @@
 				0A60388B1D339ECD000795D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A60388C1D339ECD000795D9 /* Build configuration list for PBXNativeTarget "SeePlantGrowthTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +546,7 @@
 				0A60388E1D339ECD000795D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A60388F1D339ECD000795D9 /* Build configuration list for PBXNativeTarget "SeePlantGrowthUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +555,7 @@
 				0A6038911D339ECD000795D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
