@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0A60385B1D339ECD000795D9"
-               BuildableName = "SeePlantGrowth.app"
+               BuildableName = "&#x4e07;&#x7269;&#x751f;&#x957f;.app"
                BlueprintName = "SeePlantGrowth"
                ReferencedContainer = "container:SeePlantGrowth.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0A60385B1D339ECD000795D9"
-            BuildableName = "SeePlantGrowth.app"
+            BuildableName = "&#x4e07;&#x7269;&#x751f;&#x957f;.app"
             BlueprintName = "SeePlantGrowth"
             ReferencedContainer = "container:SeePlantGrowth.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0A60385B1D339ECD000795D9"
-            BuildableName = "SeePlantGrowth.app"
+            BuildableName = "&#x4e07;&#x7269;&#x751f;&#x957f;.app"
             BlueprintName = "SeePlantGrowth"
             ReferencedContainer = "container:SeePlantGrowth.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0A60385B1D339ECD000795D9"
-            BuildableName = "SeePlantGrowth.app"
+            BuildableName = "&#x4e07;&#x7269;&#x751f;&#x957f;.app"
             BlueprintName = "SeePlantGrowth"
             ReferencedContainer = "container:SeePlantGrowth.xcodeproj">
          </BuildableReference>

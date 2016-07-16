@@ -9,6 +9,7 @@ target 'SeePlantGrowth' do
   pod 'MBProgressHUD','~> 0.9.2'
   pod 'RKDropdownAlert','~> 0.3.0'
   pod 'ReactiveCocoa','~> 2.5'
+  pod 'Masonry','~> 1.0.1'
 end
 
 target 'SeePlantGrowthTests' do
