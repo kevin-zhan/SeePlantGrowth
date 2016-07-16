@@ -14,15 +14,16 @@
 
 @implementation KVZPlant
 
-- (instancetype)initWithPlantName:(NSString *)name birthday:(NSDate *)birthday firstImage:(KVZPlantImage *)image description:(NSString *)description {
+- (instancetype)initWithPlantName:(NSString *)name birthday:(NSDate *)birthday firstImage:(UIImage *)image description:(NSString *)description {
     self = [super init];
     if (self) {
         _plantName = name;
         _birthday = birthday;
         _aboutPlant = description;
+        _firstImage = image;
         _plantImages = [[NSArray alloc] init];
         _plantDiaries = [[NSArray alloc] init];
-        [self addPlantImage:image];
+        
     }
     return self;
 }

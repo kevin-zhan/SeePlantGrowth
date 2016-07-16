@@ -140,8 +140,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="tab_me" width="50" height="50"/>
-        <image name="tab_plant" width="50" height="50"/>
-        <image name="tab_shop" width="50" height="50"/>
+        <image name="tab_me" width="25" height="25"/>
+        <image name="tab_plant" width="25" height="25"/>
+        <image name="tab_shop" width="25" height="25"/>
     </resources>
 </document>

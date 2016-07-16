@@ -7,6 +7,7 @@
 //
 
 #import "MTLModel.h"
+#import <UIKit/UIKit.h>
 @class KVZPlantImage;
 @class KVZPlantDiary;
 @interface KVZPlant : MTLModel
@@ -16,8 +17,8 @@
 @property (nonatomic, strong) NSString *aboutPlant;
 @property (nonatomic, copy, readonly) NSArray *plantImages;
 @property (nonatomic, copy, readonly) NSArray *plantDiaries;
-
-- (instancetype)initWithPlantName:(NSString *)name birthday:(NSDate *)birthday firstImage:(KVZPlantImage *)image description:(NSString *)description;
+@property (nonatomic, strong) UIImage *firstImage;
+- (instancetype)initWithPlantName:(NSString *)name birthday:(NSDate *)birthday firstImage:(UIImage *)image description:(NSString *)description;
 - (void)addPlantImage:(KVZPlantImage *)image;
 - (void)addPlantDiary:(KVZPlantDiary *)diary;
 

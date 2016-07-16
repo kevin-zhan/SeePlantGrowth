@@ -20,6 +20,8 @@
 		0A6038851D339ECD000795D9 /* SeePlantGrowthUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6038841D339ECD000795D9 /* SeePlantGrowthUITests.m */; };
 		0A6038971D33ACC2000795D9 /* KVZPersonalInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6038961D33ACC2000795D9 /* KVZPersonalInfoViewController.m */; };
 		0A60389A1D33ACEC000795D9 /* KVZSeedShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6038991D33ACEC000795D9 /* KVZSeedShopViewController.m */; };
+		0AC6EC7F1D3A7A3400D73371 /* KVZMyPlantInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC6EC7D1D3A7A3400D73371 /* KVZMyPlantInfoTableViewCell.m */; };
+		0AC6EC801D3A7A3400D73371 /* KVZMyPlantInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AC6EC7E1D3A7A3400D73371 /* KVZMyPlantInfoTableViewCell.xib */; };
 		91AFB449E1F132C83A22F059 /* libPods-SeePlantGrowth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4939F5F9DFE8CD758C15B667 /* libPods-SeePlantGrowth.a */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +69,9 @@
 		0A6038961D33ACC2000795D9 /* KVZPersonalInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVZPersonalInfoViewController.m; sourceTree = "<group>"; };
 		0A6038981D33ACEC000795D9 /* KVZSeedShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVZSeedShopViewController.h; sourceTree = "<group>"; };
 		0A6038991D33ACEC000795D9 /* KVZSeedShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVZSeedShopViewController.m; sourceTree = "<group>"; };
+		0AC6EC7C1D3A7A3400D73371 /* KVZMyPlantInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVZMyPlantInfoTableViewCell.h; sourceTree = "<group>"; };
+		0AC6EC7D1D3A7A3400D73371 /* KVZMyPlantInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVZMyPlantInfoTableViewCell.m; sourceTree = "<group>"; };
+		0AC6EC7E1D3A7A3400D73371 /* KVZMyPlantInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVZMyPlantInfoTableViewCell.xib; sourceTree = "<group>"; };
 		4939F5F9DFE8CD758C15B667 /* libPods-SeePlantGrowth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SeePlantGrowth.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B243329869E378E22097A8F /* Pods-SeePlantGrowth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeePlantGrowth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeePlantGrowth/Pods-SeePlantGrowth.debug.xcconfig"; sourceTree = "<group>"; };
 		B934C27A513EF77F235A8469 /* Pods-SeePlantGrowth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeePlantGrowth.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeePlantGrowth/Pods-SeePlantGrowth.release.xcconfig"; sourceTree = "<group>"; };
@@ -228,6 +233,9 @@
 		0ACE49F81D38E18800CD7D15 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0AC6EC7C1D3A7A3400D73371 /* KVZMyPlantInfoTableViewCell.h */,
+				0AC6EC7D1D3A7A3400D73371 /* KVZMyPlantInfoTableViewCell.m */,
+				0AC6EC7E1D3A7A3400D73371 /* KVZMyPlantInfoTableViewCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -420,6 +428,7 @@
 				0A60386F1D339ECD000795D9 /* LaunchScreen.storyboard in Resources */,
 				0A60386C1D339ECD000795D9 /* Assets.xcassets in Resources */,
 				0A60386A1D339ECD000795D9 /* Main.storyboard in Resources */,
+				0AC6EC801D3A7A3400D73371 /* KVZMyPlantInfoTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +488,7 @@
 			files = (
 				0A0BBD921D3A210500C594E3 /* KVZPlantImage.m in Sources */,
 				0A6038671D339ECD000795D9 /* KVZMyPlantViewController.m in Sources */,
+				0AC6EC7F1D3A7A3400D73371 /* KVZMyPlantInfoTableViewCell.m in Sources */,
 				0A0BBD8F1D3A20F700C594E3 /* KVZPlant.m in Sources */,
 				0A6038971D33ACC2000795D9 /* KVZPersonalInfoViewController.m in Sources */,
 				0A6038641D339ECD000795D9 /* AppDelegate.m in Sources */,
