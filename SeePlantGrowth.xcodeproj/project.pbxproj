@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A0BBD8F1D3A20F700C594E3 /* KVZPlant.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BBD8E1D3A20F700C594E3 /* KVZPlant.m */; };
+		0A0BBD921D3A210500C594E3 /* KVZPlantImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BBD911D3A210500C594E3 /* KVZPlantImage.m */; };
+		0A0BBD951D3A211600C594E3 /* KVZPlantDiary.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BBD941D3A211600C594E3 /* KVZPlantDiary.m */; };
 		0A6038611D339ECD000795D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6038601D339ECD000795D9 /* main.m */; };
 		0A6038641D339ECD000795D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6038631D339ECD000795D9 /* AppDelegate.m */; };
 		0A6038671D339ECD000795D9 /* KVZMyPlantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6038661D339ECD000795D9 /* KVZMyPlantViewController.m */; };
@@ -38,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A0BBD8D1D3A20F700C594E3 /* KVZPlant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVZPlant.h; sourceTree = "<group>"; };
+		0A0BBD8E1D3A20F700C594E3 /* KVZPlant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVZPlant.m; sourceTree = "<group>"; };
+		0A0BBD901D3A210500C594E3 /* KVZPlantImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVZPlantImage.h; sourceTree = "<group>"; };
+		0A0BBD911D3A210500C594E3 /* KVZPlantImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVZPlantImage.m; sourceTree = "<group>"; };
+		0A0BBD931D3A211600C594E3 /* KVZPlantDiary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVZPlantDiary.h; sourceTree = "<group>"; };
+		0A0BBD941D3A211600C594E3 /* KVZPlantDiary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVZPlantDiary.m; sourceTree = "<group>"; };
 		0A60385C1D339ECD000795D9 /* 万物生长.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "万物生长.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A6038601D339ECD000795D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0A6038621D339ECD000795D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -166,6 +175,12 @@
 		0A6038931D33AC5B000795D9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0A0BBD8D1D3A20F700C594E3 /* KVZPlant.h */,
+				0A0BBD8E1D3A20F700C594E3 /* KVZPlant.m */,
+				0A0BBD901D3A210500C594E3 /* KVZPlantImage.h */,
+				0A0BBD911D3A210500C594E3 /* KVZPlantImage.m */,
+				0A0BBD931D3A211600C594E3 /* KVZPlantDiary.h */,
+				0A0BBD941D3A211600C594E3 /* KVZPlantDiary.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -462,9 +477,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A0BBD921D3A210500C594E3 /* KVZPlantImage.m in Sources */,
 				0A6038671D339ECD000795D9 /* KVZMyPlantViewController.m in Sources */,
+				0A0BBD8F1D3A20F700C594E3 /* KVZPlant.m in Sources */,
 				0A6038971D33ACC2000795D9 /* KVZPersonalInfoViewController.m in Sources */,
 				0A6038641D339ECD000795D9 /* AppDelegate.m in Sources */,
+				0A0BBD951D3A211600C594E3 /* KVZPlantDiary.m in Sources */,
 				0A60389A1D33ACEC000795D9 /* KVZSeedShopViewController.m in Sources */,
 				0A6038611D339ECD000795D9 /* main.m in Sources */,
 			);

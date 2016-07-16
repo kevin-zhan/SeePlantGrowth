@@ -7,8 +7,9 @@
 //
 
 #import "KVZMyPlantViewController.h"
-@interface KVZMyPlantViewController ()
-
+#import "Masonry.h"
+@interface KVZMyPlantViewController ()<UITableViewDelegate,UITableViewDataSource>
+@property (nonatomic, strong) UITableView *tableView;
 @end
 
 @implementation KVZMyPlantViewController
@@ -19,16 +20,33 @@
     self.title = @"我的植物";
     UIBarButtonItem *add = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"nav_plus"] style:UIBarButtonItemStyleDone target:self action:@selector(addPlant)];
     [self.navigationItem setRightBarButtonItem:add];
-    
+    [self p_initMainViews];
+}
+
+- (void)p_initMainViews {
+    _tableView = [[UITableView alloc] init];
+    _tableView.delegate = self;
+    _tableView.dataSource =self;
+    _tableView.backgroundColor = [UIColor clearColor];
+}
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 1;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return nil;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 30.0f;
 }
 
 - (void)addPlant {
     NSLog(@"添加植物");
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 @end
